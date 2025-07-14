@@ -1,14 +1,16 @@
-module caelestia-installer
+module caelestia-shell
 
-go 1.18
+go 1.24.3
+
+require github.com/rivo/tview v0.0.0-20250625164341-a4a78f1e05cb
 
 require (
-	github.com/gdamore/tcell/v2 v2.5.3 // indirect
+	github.com/gdamore/encoding v1.0.1 // indirect
+	github.com/gdamore/tcell/v2 v2.8.1 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
-	github.com/mattn/go-runewidth v0.0.13 // indirect
-	github.com/otiai10/copy v1.7.0
-	github.com/rivo/tview v0.0.0-20220307173318-d3bed4424362
-	golang.org/x/sys v0.0.0-20220319134239-a9b59b0215f9 // indirect
-	golang.org/x/term v0.0.0-20210927222741-03fcf44c9223 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	github.com/mattn/go-runewidth v0.0.16 // indirect
+	github.com/rivo/uniseg v0.4.7 // indirect
+	golang.org/x/sys v0.29.0 // indirect
+	golang.org/x/term v0.28.0 // indirect
+	golang.org/x/text v0.21.0 // indirect
 )
